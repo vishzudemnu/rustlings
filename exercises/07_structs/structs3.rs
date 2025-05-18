@@ -21,7 +21,7 @@ impl Package {
             recipient_country,
             weight_in_grams,
         }
-    }
+    } 
 
     // TODO: Add the correct return type to the function signature.
     fn is_international(&self) {
