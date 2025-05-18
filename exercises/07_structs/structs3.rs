@@ -60,7 +60,7 @@ mod tests {
         let package = Package::new(sender_country, recipient_country, 1200);
 
         assert!(package.is_international());
-    }
+    } 
 
     #[test]
     fn create_local_package() {
